@@ -11,6 +11,7 @@ import PageNotFound from "../Component/Header/PageNotFound";
 import AllToys from "../Pages/AllToys/AllToys";
 import AddAToy from "../Pages/AddAToy/AddAToy";
 import MyToys from "../Pages/MyToys/MyToys";
+import PrivateRoute from "./PrivateRoute";
 
 
   const router = createBrowserRouter([
@@ -51,7 +52,7 @@ import MyToys from "../Pages/MyToys/MyToys";
         },
         {
             path: "/my-toys",
-            element: <MyToys></MyToys>
+            element: <PrivateRoute><MyToys></MyToys></PrivateRoute>
         },
         {
             path: "/*",

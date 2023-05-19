@@ -1,10 +1,31 @@
 // import React from 'react';
 
+import { useContext, useState } from "react";
 import { Link } from "react-router-dom";
+import { AuthContext } from "../../Providers/AuthProvider";
+import profileImg from '../../../src/assets/react.svg';
+
 
 // import { Link } from "react-router-dom";
 
+
 const Header = () => {
+    const [show, setShow] = useState(false)
+
+    const {user, logout} = useContext(AuthContext);
+    console.log('header : ' + user?.email);
+
+
+    const signOutHndler = () =>{
+        logout()
+            .then(()=>{
+
+            })
+            .catch(error =>{
+                console.log()
+            })
+
+        }
     return (
         <div className='container mx-auto'>
             <div className="navbar bg-base-100">
@@ -35,19 +56,23 @@ const Header = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <Link to={'/login'} className="btn">login</Link>
-                    <div className="dropdown dropdown-end">
+                    {
+                        user?<div className="dropdown dropdown-end">
                         <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
                             <div className="w-10 rounded-full">
-                            <img src="../../assets/react.svg" />
+                            <img src={user?.photoURL} />
                             </div>
                         </label>
                         <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
                             <li><Link to={''}>My Toys</Link></li>
-                            <li><Link to={''}>Logout</Link></li>
+                            <li><Link to={''} onClick={signOutHndler()}>Logout</Link></li>
                         </ul>
-                    </div>
+                        </div>:<Link to={'/login'} className="btn">login</Link>
+
+                    }
+                    
                 </div>
+                
                 
             </div>
         </div>
