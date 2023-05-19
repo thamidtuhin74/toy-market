@@ -1,0 +1,171 @@
+[
+    {
+        "_id": "1",
+        "name": "Super Stacker Blocks",
+        "img": "https://m.media-amazon.com/images/I/71BJYpcjBqL._AC_UL320_.jpg",
+        "price": 19.99,
+        "rating": 4.5,
+        "seller": {
+          "name": "ToyWorld",
+          "email": "info@toyworld.com"
+        },
+        "category": "Building Blocks",
+        "quantity": 10,
+        "details": "Super Stacker Blocks is a set of colorful building blocks that allows children to create amazing structures. The blocks are made of high-quality plastic and come in various shapes and sizes, providing endless possibilities for creative play. Suitable for children aged 3 and above."
+      },
+      {
+        "_id": "2",
+        "name": "RoboRacers",
+        "img": "https://m.media-amazon.com/images/I/81RnjOIC9NL._AC_UL320_.jpg",
+        "price": 39.99,
+        "rating": 4.2,
+        "seller": {
+          "name": "TechToys",
+          "email": "sales@techtoys.com"
+        },
+        "category": "Remote Control Toys",
+        "quantity": 5,
+        "details": "RoboRacers is a remote control car set featuring two speedy race cars. The cars are equipped with advanced sensors and can be controlled using the included remote. Race against your friends or set up obstacle courses for exciting challenges. Recommended for kids aged 6 and above."
+      },
+      {
+        "_id": "3",
+        "name": "Sparkling Princess Doll",
+        "img": "https://m.media-amazon.com/images/I/81v-gy21UeL._AC_UL320_.jpg",
+        "price": 24.99,
+        "rating": 4.8,
+        "seller": {
+          "name": "DreamToys",
+          "email": "sales@dreamtoys.com"
+        },
+        "category": "Dolls",
+        "quantity": 15,
+        "details": "The Sparkling Princess Doll is a beautiful and elegant doll that will delight any child. Dressed in a stunning gown with sparkling details, this doll is perfect for imaginative play and storytelling. The doll also comes with a comb for styling her long, flowing hair. Suitable for children aged 4 and above."
+      },
+    {
+      "_id": "4",
+      "name": "Iron Man Hot Rod",
+      "img": "https://m.media-amazon.com/images/I/61Q81aoHezL._AC_UL320_.jpg",
+      "price": 29.99,
+      "rating": 4.7,
+      "seller": {
+        "name": "Marvel Merchandise",
+        "email": "sales@marvelmerch.com"
+      },
+      "category": "Toy Cars",
+      "quantity": 8,
+      "details": "Zoom into action with the Iron Man Hot Rod toy car! This sleek and powerful vehicle features Iron Man's iconic colors and designs. It includes light-up features, realistic engine sounds, and even plays Iron Man's famous repulsor blasts. Suitable for Marvel fans aged 5 and above."
+    },
+    {
+      "_id": "5",
+      "name": "Spider-Mobile",
+      "img": "https://m.media-amazon.com/images/I/71HseWGHe6L._AC_UL320_.jpg",
+      "price": 34.99,
+      "rating": 4.4,
+      "seller": {
+        "name": "Superhero Toys Inc.",
+        "email": "info@superherotoys.com"
+      },
+      "category": "Toy Cars",
+      "quantity": 12,
+      "details": "Get ready for high-speed adventures with the Spider-Mobile! This cool toy car features Spider-Man's classic colors and web patterns. It comes with a launcher that shoots webs, and the vehicle's wheels light up while in motion. Suitable for Marvel fans aged 4 and above."
+    },
+    {
+      "_id": "6",
+      "name": "Black Panther Vibranium Racer",
+      "img": "https://m.media-amazon.com/images/I/71UoMC+CMWL._AC_UL320_.jpg",
+      "price": 39.99,
+      "rating": 4.9,
+      "seller": {
+        "name": "Wakanda Toys",
+        "email": "sales@wakandatoys.com"
+      },
+      "category": "Toy Cars",
+      "quantity": 6,
+      "details": "Race through the streets of Wakanda with the Black Panther Vibranium Racer! This sleek toy car is inspired by Black Panther's technology and features vibranium-powered enhancements. It includes sound effects, a removable Black Panther figure, and adjustable wings. Suitable for Marvel fans aged 6 and above."
+    },
+    {
+        "_id": "7",
+        "name": "Super Stacker Blocks",
+        "img": "https://m.media-amazon.com/images/I/71BJYpcjBqL._AC_UL320_.jpg",
+        "price": 19.99,
+        "rating": 4.5,
+        "seller": {
+          "name": "ToyWorld",
+          "email": "info@toyworld.com"
+        },
+        "category": "Building Blocks",
+        "quantity": 10,
+        "details": "Super Stacker Blocks is a set of colorful building blocks that allows children to create amazing structures. The blocks are made of high-quality plastic and come in various shapes and sizes, providing endless possibilities for creative play. Suitable for children aged 3 and above."
+      },
+      {
+        "_id": "8",
+        "name": "RoboRacers",
+        "img": "https://m.media-amazon.com/images/I/81RnjOIC9NL._AC_UL320_.jpg",
+        "price": 39.99,
+        "rating": 4.2,
+        "seller": {
+          "name": "TechToys",
+          "email": "sales@techtoys.com"
+        },
+        "category": "Remote Control Toys",
+        "quantity": 5,
+        "details": "RoboRacers is a remote control car set featuring two speedy race cars. The cars are equipped with advanced sensors and can be controlled using the included remote. Race against your friends or set up obstacle courses for exciting challenges. Recommended for kids aged 6 and above."
+      },
+      {
+        "_id": "9",
+        "name": "Sparkling Princess Doll",
+        "img": "https://m.media-amazon.com/images/I/81v-gy21UeL._AC_UL320_.jpg",
+        "price": 24.99,
+        "rating": 4.8,
+        "seller": {
+          "name": "DreamToys",
+          "email": "sales@dreamtoys.com"
+        },
+        "category": "Dolls",
+        "quantity": 15,
+        "details": "The Sparkling Princess Doll is a beautiful and elegant doll that will delight any child. Dressed in a stunning gown with sparkling details, this doll is perfect for imaginative play and storytelling. The doll also comes with a comb for styling her long, flowing hair. Suitable for children aged 4 and above."
+      },
+    {
+      "_id": "10",
+      "name": "Iron Man Hot Rod",
+      "img": "https://m.media-amazon.com/images/I/61Q81aoHezL._AC_UL320_.jpg",
+      "price": 29.99,
+      "rating": 4.7,
+      "seller": {
+        "name": "Marvel Merchandise",
+        "email": "sales@marvelmerch.com"
+      },
+      "category": "Toy Cars",
+      "quantity": 8,
+      "details": "Zoom into action with the Iron Man Hot Rod toy car! This sleek and powerful vehicle features Iron Man's iconic colors and designs. It includes light-up features, realistic engine sounds, and even plays Iron Man's famous repulsor blasts. Suitable for Marvel fans aged 5 and above."
+    },
+    {
+      "_id": "11",
+      "name": "Spider-Mobile",
+      "img": "https://m.media-amazon.com/images/I/71HseWGHe6L._AC_UL320_.jpg",
+      "price": 34.99,
+      "rating": 4.4,
+      "seller": {
+        "name": "Superhero Toys Inc.",
+        "email": "info@superherotoys.com"
+      },
+      "category": "Toy Cars",
+      "quantity": 12,
+      "details": "Get ready for high-speed adventures with the Spider-Mobile! This cool toy car features Spider-Man's classic colors and web patterns. It comes with a launcher that shoots webs, and the vehicle's wheels light up while in motion. Suitable for Marvel fans aged 4 and above."
+    },
+    {
+      "_id": "12",
+      "name": "Black Panther Vibranium Racer",
+      "img": "https://m.media-amazon.com/images/I/71UoMC+CMWL._AC_UL320_.jpg",
+      "price": 39.99,
+      "rating": 4.9,
+      "seller": {
+        "name": "Wakanda Toys",
+        "email": "sales@wakandatoys.com"
+      },
+      "category": "Toy Cars",
+      "quantity": 6,
+      "details": "Race through the streets of Wakanda with the Black Panther Vibranium Racer! This sleek toy car is inspired by Black Panther's technology and features vibranium-powered enhancements. It includes sound effects, a removable Black Panther figure, and adjustable wings. Suitable for Marvel fans aged 6 and above."
+    }
+  ]
+  
