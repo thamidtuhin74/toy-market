@@ -12,6 +12,7 @@ import AllToys from "../Pages/AllToys/AllToys";
 import AddAToy from "../Pages/AddAToy/AddAToy";
 import MyToys from "../Pages/MyToys/MyToys";
 import PrivateRoute from "./PrivateRoute";
+import Details from "../Component/Details/Details";
 
 
   const router = createBrowserRouter([
@@ -21,8 +22,7 @@ import PrivateRoute from "./PrivateRoute";
       children: [
         {
             path: "/",
-            element: <Home></Home>,
-            loader: ()=> fetch('https://chef-recipe-hunter-server-thamidtuhin74.vercel.app/chefs')
+            element: <Home></Home>
         },
         {
             path: "/login",
@@ -33,18 +33,13 @@ import PrivateRoute from "./PrivateRoute";
             element: <Register></Register>
         },
         {
-            // path: "/card-details/:chefID",
-            // element: <CardDetails></CardDetails>,
-            // loader: ({params})=> fetch(`https://chef-recipe-hunter-server-thamidtuhin74.vercel.app/chefs/${params.chefID}`)
-
-        },
-        {
             path: "/blog",
             element: <Blog></Blog>
         },
         {
             path: "/all-toys",
-            element: <AllToys></AllToys>
+            element: <AllToys></AllToys>,
+            loader: ()=>fetch('http://localhost:5000/all-toys')
         },
         {
             path: "/add-a-toy",
@@ -52,7 +47,12 @@ import PrivateRoute from "./PrivateRoute";
         },
         {
             path: "/my-toys",
-            element: <PrivateRoute><MyToys></MyToys></PrivateRoute>
+            element: <MyToys></MyToys>
+        },
+        {
+            path: "/all-toys/:id",
+            element: <Details></Details> ,
+            loader: ({params})=> fetch(`http://localhost:5000/all-toys/${params.id}`)
         },
         {
             path: "/*",

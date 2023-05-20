@@ -76,7 +76,7 @@ const Login = () => {// useNavigate
                 const user  = result.user;
                 setSuccess('User Login successfully');
                 navigate(from, {replace: true});
-                setUser(logInUser)
+                setUser(user)
                 
             })
             .catch(error => {

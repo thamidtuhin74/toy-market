@@ -1,171 +1,275 @@
 [
-    {
-        "_id": "1",
-        "name": "Super Stacker Blocks",
-        "img": "https://m.media-amazon.com/images/I/71BJYpcjBqL._AC_UL320_.jpg",
-        "price": 19.99,
-        "rating": 4.5,
-        "seller": {
-          "name": "ToyWorld",
-          "email": "info@toyworld.com"
-        },
-        "category": "Building Blocks",
-        "quantity": 10,
-        "details": "Super Stacker Blocks is a set of colorful building blocks that allows children to create amazing structures. The blocks are made of high-quality plastic and come in various shapes and sizes, providing endless possibilities for creative play. Suitable for children aged 3 and above."
-      },
-      {
-        "_id": "2",
-        "name": "RoboRacers",
-        "img": "https://m.media-amazon.com/images/I/81RnjOIC9NL._AC_UL320_.jpg",
-        "price": 39.99,
-        "rating": 4.2,
-        "seller": {
-          "name": "TechToys",
-          "email": "sales@techtoys.com"
-        },
-        "category": "Remote Control Toys",
-        "quantity": 5,
-        "details": "RoboRacers is a remote control car set featuring two speedy race cars. The cars are equipped with advanced sensors and can be controlled using the included remote. Race against your friends or set up obstacle courses for exciting challenges. Recommended for kids aged 6 and above."
-      },
-      {
-        "_id": "3",
-        "name": "Sparkling Princess Doll",
-        "img": "https://m.media-amazon.com/images/I/81v-gy21UeL._AC_UL320_.jpg",
-        "price": 24.99,
-        "rating": 4.8,
-        "seller": {
-          "name": "DreamToys",
-          "email": "sales@dreamtoys.com"
-        },
-        "category": "Dolls",
-        "quantity": 15,
-        "details": "The Sparkling Princess Doll is a beautiful and elegant doll that will delight any child. Dressed in a stunning gown with sparkling details, this doll is perfect for imaginative play and storytelling. The doll also comes with a comb for styling her long, flowing hair. Suitable for children aged 4 and above."
-      },
-    {
-      "_id": "4",
-      "name": "Iron Man Hot Rod",
-      "img": "https://m.media-amazon.com/images/I/61Q81aoHezL._AC_UL320_.jpg",
-      "price": 29.99,
-      "rating": 4.7,
-      "seller": {
-        "name": "Marvel Merchandise",
-        "email": "sales@marvelmerch.com"
-      },
-      "category": "Toy Cars",
-      "quantity": 8,
-      "details": "Zoom into action with the Iron Man Hot Rod toy car! This sleek and powerful vehicle features Iron Man's iconic colors and designs. It includes light-up features, realistic engine sounds, and even plays Iron Man's famous repulsor blasts. Suitable for Marvel fans aged 5 and above."
+  {
+    "name": "Spider-Man Action Figure",
+    "img": "https://m.media-amazon.com/images/I/61l60LHdhHL._AC_UL320_.jpg",
+    "price": 19.99,
+    "rating": 4.5,
+    "seller": {
+      "name": "Superhero Toys Inc.",
+      "email": "info@superherotoys.com"
     },
-    {
-      "_id": "5",
-      "name": "Spider-Mobile",
-      "img": "https://m.media-amazon.com/images/I/71HseWGHe6L._AC_UL320_.jpg",
-      "price": 34.99,
-      "rating": 4.4,
-      "seller": {
-        "name": "Superhero Toys Inc.",
-        "email": "info@superherotoys.com"
-      },
-      "category": "Toy Cars",
-      "quantity": 12,
-      "details": "Get ready for high-speed adventures with the Spider-Mobile! This cool toy car features Spider-Man's classic colors and web patterns. It comes with a launcher that shoots webs, and the vehicle's wheels light up while in motion. Suitable for Marvel fans aged 4 and above."
+    "category": "Marvel",
+    "quantity": 10,
+    "details": "The Spider-Man Action Figure brings your favorite web-slinging hero to life. This highly detailed figure stands 12 inches tall and features multiple points of articulation for dynamic poses. It comes with interchangeable hands, web accessories, and a display stand. Suitable for Marvel fans aged 4 and above."
+  },
+  {
+    "name": "Captain America Shield",
+    "img": "https://m.media-amazon.com/images/I/71kh8VXxqUL._AC_UL320_.jpg",
+    "price": 29.99,
+    "rating": 4.7,
+    "seller": {
+      "name": "Marvel Merchandise",
+      "email": "sales@marvelmerch.com"
     },
-    {
-      "_id": "6",
-      "name": "Black Panther Vibranium Racer",
-      "img": "https://m.media-amazon.com/images/I/71UoMC+CMWL._AC_UL320_.jpg",
-      "price": 39.99,
-      "rating": 4.9,
-      "seller": {
-        "name": "Wakanda Toys",
-        "email": "sales@wakandatoys.com"
-      },
-      "category": "Toy Cars",
-      "quantity": 6,
-      "details": "Race through the streets of Wakanda with the Black Panther Vibranium Racer! This sleek toy car is inspired by Black Panther's technology and features vibranium-powered enhancements. It includes sound effects, a removable Black Panther figure, and adjustable wings. Suitable for Marvel fans aged 6 and above."
+    "category": "Marvel",
+    "quantity": 8,
+    "details": "Become a true Avenger with the Captain America Shield! This premium role-playing toy is a full-scale replica of Captain America's iconic shield. It features adjustable straps for a comfortable fit and is made with durable materials. Perfect for cosplay or display. Suitable for Marvel fans aged 6 and above."
+  },
+  {
+    "name": "Black Widow Stealth Suit",
+    "img": "https://m.media-amazon.com/images/I/71wz8aOflzL._AC_UL320_.jpg",
+    "price": 24.99,
+    "rating": 4.8,
+    "seller": {
+      "name": "Hero Haven",
+      "email": "sales@herohaven.com"
     },
-    {
-        "_id": "7",
-        "name": "Super Stacker Blocks",
-        "img": "https://m.media-amazon.com/images/I/71BJYpcjBqL._AC_UL320_.jpg",
-        "price": 19.99,
-        "rating": 4.5,
-        "seller": {
-          "name": "ToyWorld",
-          "email": "info@toyworld.com"
-        },
-        "category": "Building Blocks",
-        "quantity": 10,
-        "details": "Super Stacker Blocks is a set of colorful building blocks that allows children to create amazing structures. The blocks are made of high-quality plastic and come in various shapes and sizes, providing endless possibilities for creative play. Suitable for children aged 3 and above."
-      },
-      {
-        "_id": "8",
-        "name": "RoboRacers",
-        "img": "https://m.media-amazon.com/images/I/81RnjOIC9NL._AC_UL320_.jpg",
-        "price": 39.99,
-        "rating": 4.2,
-        "seller": {
-          "name": "TechToys",
-          "email": "sales@techtoys.com"
-        },
-        "category": "Remote Control Toys",
-        "quantity": 5,
-        "details": "RoboRacers is a remote control car set featuring two speedy race cars. The cars are equipped with advanced sensors and can be controlled using the included remote. Race against your friends or set up obstacle courses for exciting challenges. Recommended for kids aged 6 and above."
-      },
-      {
-        "_id": "9",
-        "name": "Sparkling Princess Doll",
-        "img": "https://m.media-amazon.com/images/I/81v-gy21UeL._AC_UL320_.jpg",
-        "price": 24.99,
-        "rating": 4.8,
-        "seller": {
-          "name": "DreamToys",
-          "email": "sales@dreamtoys.com"
-        },
-        "category": "Dolls",
-        "quantity": 15,
-        "details": "The Sparkling Princess Doll is a beautiful and elegant doll that will delight any child. Dressed in a stunning gown with sparkling details, this doll is perfect for imaginative play and storytelling. The doll also comes with a comb for styling her long, flowing hair. Suitable for children aged 4 and above."
-      },
-    {
-      "_id": "10",
-      "name": "Iron Man Hot Rod",
-      "img": "https://m.media-amazon.com/images/I/61Q81aoHezL._AC_UL320_.jpg",
-      "price": 29.99,
-      "rating": 4.7,
-      "seller": {
-        "name": "Marvel Merchandise",
-        "email": "sales@marvelmerch.com"
-      },
-      "category": "Toy Cars",
-      "quantity": 8,
-      "details": "Zoom into action with the Iron Man Hot Rod toy car! This sleek and powerful vehicle features Iron Man's iconic colors and designs. It includes light-up features, realistic engine sounds, and even plays Iron Man's famous repulsor blasts. Suitable for Marvel fans aged 5 and above."
+    "category": "Marvel",
+    "quantity": 15,
+    "details": "Gear up for covert missions with the Black Widow Stealth Suit! This action-packed toy includes a detailed Black Widow figure dressed in her stealth suit, complete with accessories like batons and pistols. The figure features multiple points of articulation for posing and play. Suitable for Marvel fans aged 5 and above."
+  },
+  {
+    "name": "Hulk Smash Hands",
+    "img": "https://m.media-amazon.com/images/I/71KgOcIIi8L._AC_UL320_.jpg",
+    "price": 14.99,
+    "rating": 4.2,
+    "seller": {
+      "name": "Superhero Toys Inc.",
+      "email": "info@superherotoys.com"
     },
-    {
-      "_id": "11",
-      "name": "Spider-Mobile",
-      "img": "https://m.media-amazon.com/images/I/71HseWGHe6L._AC_UL320_.jpg",
-      "price": 34.99,
-      "rating": 4.4,
-      "seller": {
-        "name": "Superhero Toys Inc.",
-        "email": "info@superherotoys.com"
-      },
-      "category": "Toy Cars",
-      "quantity": 12,
-      "details": "Get ready for high-speed adventures with the Spider-Mobile! This cool toy car features Spider-Man's classic colors and web patterns. It comes with a launcher that shoots webs, and the vehicle's wheels light up while in motion. Suitable for Marvel fans aged 4 and above."
+    "category": "Marvel",
+    "quantity": 20,
+    "details": "Unleash your inner Hulk with these incredible Hulk Smash Hands! Slide your hands into these oversized gloves and get ready for epic smashing action. Made with soft and durable materials, these hands make smashing sounds upon impact. Suitable for Marvel fans aged 3 and above."
+  },
+  {
+    "name": "Thor's Mjolnir Hammer",
+    "img": "https://m.media-amazon.com/images/I/71HslotQYkL._AC_UL320_.jpg",
+    "price": 39.99,
+    "rating": 4.9,
+    "seller": {
+      "name": "Marvel Merchandise",
+      "email": "sales@marvelmerch.com"
     },
-    {
-      "_id": "12",
-      "name": "Black Panther Vibranium Racer",
-      "img": "https://m.media-amazon.com/images/I/71UoMC+CMWL._AC_UL320_.jpg",
-      "price": 39.99,
-      "rating": 4.9,
-      "seller": {
-        "name": "Wakanda Toys",
-        "email": "sales@wakandatoys.com"
-      },
-      "category": "Toy Cars",
-      "quantity": 6,
-      "details": "Race through the streets of Wakanda with the Black Panther Vibranium Racer! This sleek toy car is inspired by Black Panther's technology and features vibranium-powered enhancements. It includes sound effects, a removable Black Panther figure, and adjustable wings. Suitable for Marvel fans aged 6 and above."
-    }
-  ]
-  
+    "category": "Marvel",
+    "quantity": 6,
+    "details": "Wield the power of Thor with this authentic Mjolnir Hammer! This premium role-playing toy features intricate detailing and comes with electronic lights and thunder sound effects. Lift the hammer and feel the power of the God of Thunder. Suitable for Marvel fans aged 6 and above."
+  },
+  {
+    "name": "Iron Spider Web-Shooter",
+    "img": "https://m.media-amazon.com/images/I/81Nqt4PEoEL._AC_UL320_.jpg",
+    "price": 19.99,
+    "rating": 4.6,
+    "seller": {
+      "name": "Hero Haven",
+      "email": "sales@herohaven.com"
+    },
+    "category": "Marvel",
+    "quantity": 12,
+    "details": "Gear up like Iron Spider with this cool Web-Shooter! Slip it onto your wrist and shoot web projectiles just like the beloved Marvel character. The set includes a gauntlet with a built-in shooter and a refillable cartridge of web projectiles. Suitable for Marvel fans aged 5 and above."
+  },
+  {
+    "name": "Batman Utility Belt",
+    "img": "https://m.media-amazon.com/images/I/71j+4mI8w8L._AC_UL320_.jpg",
+    "price": 24.99,
+    "rating": 4.5,
+    "seller": {
+      "name": "Gotham Toys",
+      "email": "sales@gothamtoys.com"
+    },
+    "category": "DC",
+    "quantity": 10,
+    "details": "Equip yourself with the Batman Utility Belt and become the Dark Knight! This versatile belt features compartments for storing Batarangs, a grappling hook, and other crime-fighting gadgets. It also includes sound effects and a detachable cape. Suitable for DC fans aged 5 and above."
+  },
+  {
+    "name": "Wonder Woman Sword and Shield",
+    "img": "https://m.media-amazon.com/images/I/71p+qqy-HOL._AC_UL320_.jpg",
+    "price": 29.99,
+    "rating": 4.7,
+    "seller": {
+      "name": "Amazonian Collectibles",
+      "email": "info@amazoniancollectibles.com"
+    },
+    "category": "DC",
+    "quantity": 8,
+    "details": "Embrace the power of Wonder Woman with her iconic Sword and Shield! This role-playing set includes a realistic sword and shield adorned with Amazonian designs. The sword features sound effects, and the shield can be worn or used for display. Suitable for DC fans aged 6 and above."
+  },
+  {
+    "name": "Superman Action Figure",
+    "img": "https://m.media-amazon.com/images/I/71dEhGHvk1L._AC_UL320_.jpg",
+    "price": 19.99,
+    "rating": 4.8,
+    "seller": {
+      "name": "Metropolis Toys",
+      "email": "sales@metrotoys.com"
+    },
+    "category": "DC",
+    "quantity": 15,
+    "details": "Bring the Man of Steel home with the Superman Action Figure! This highly detailed figure stands 12 inches tall and features multiple points of articulation. It comes with a removable cape and interchangeable hands for various poses. Suitable for DC fans aged 4 and above."
+  },
+  {
+    "name": "Harley Quinn Funko Pop",
+    "img": "https://m.media-amazon.com/images/I/61ZNOcf26BL._AC_UL320_.jpg",
+    "price": 9.99,
+    "rating": 4.4,
+    "seller": {
+      "name": "DC Collectibles",
+      "email": "sales@dccollectibles.com"
+    },
+    "category": "DC",
+    "quantity": 20,
+    "details": "Add some mischief to your collection with the Harley Quinn Funko Pop! This adorable vinyl figure showcases Harley Quinn's signature red and black outfit, complete with her playful expression. It stands approximately 4 inches tall and comes in a window display box. Suitable for DC fans and Funko Pop collectors of all ages."
+  },
+  {
+    "name": "Flash Lightning Bolt Backpack",
+    "img": "https://m.media-amazon.com/images/I/819Qm6YMrzL._AC_UL320_.jpg",
+    "price": 34.99,
+    "rating": 4.9,
+    "seller": {
+      "name": "Superhero Supplies",
+      "email": "info@superherosupplies.com"
+    },
+    "category": "DC",
+    "quantity": 6,
+    "details": "Zip around like the Fastest Man Alive with the Flash Lightning Bolt Backpack! This stylish and functional backpack features the iconic lightning bolt symbol of the Flash. It has multiple compartments, adjustable straps, and is made with durable materials. Perfect for school, work, or everyday adventures. Suitable for DC fans aged 8 and above."
+  },
+  {
+    "name": "Green Lantern Power Ring",
+    "img": "https://m.media-amazon.com/images/I/712yYU77ATL._AC_UL320_.jpg",
+    "price": 19.99,
+    "rating": 4.6,
+    "seller": {
+      "name": "Guardians of Oa",
+      "email": "sales@guardiansofoa.com"
+    },
+    "category": "DC",
+    "quantity": 12,
+    "details": "Join the ranks of the Green Lantern Corps with the Green Lantern Power Ring! This replica ring features the iconic green design and is made with high-quality materials. It lights up and emits a green glow when activated. Channel your willpower and defend the universe. Suitable for DC fans aged 6 and above."
+  },
+  {
+    "name": "Wonder Woman Action Figure",
+    "img": "https://m.media-amazon.com/images/I/71DdzUFVjML._AC_UL320_.jpg",
+    "price": 24.99,
+    "rating": 4.7,
+    "seller": {
+      "name": "DC Collectibles",
+      "email": "sales@dccollectibles.com"
+    },
+    "category": "DC",
+    "quantity": 15,
+    "details": "Unleash the power of Wonder Woman with this action figure! Standing at 6 inches tall, this highly articulated figure features accurate detailing and comes with her iconic Lasso of Truth and shield. Perfect for collectors and fans of the DC Comics superheroine."
+  },
+  {
+    "name": "Batman Utility Belt Kit",
+    "img": "https://m.media-amazon.com/images/I/81wA+Yyn7kL._AC_UL320_.jpg",
+    "price": 29.99,
+    "rating": 4.5,
+    "seller": {
+      "name": "Gotham City Supplies",
+      "email": "info@gothamcitysupplies.com"
+    },
+    "category": "DC",
+    "quantity": 10,
+    "details": "Gear up like the Dark Knight with this Batman Utility Belt Kit! The kit includes a utility belt with adjustable straps, detachable pouches, and a Batarang. It also comes with a grappling hook and smoke pellets. Perfect for role-playing or completing your Batman cosplay."
+  },
+  {
+    "name": "Superman Logo T-Shirt",
+    "img": "https://m.media-amazon.com/images/I/613ZY3mMJTL._AC_UL320_.jpg",
+    "price": 19.99,
+    "rating": 4.6,
+    "seller": {
+      "name": "Metropolis Merch",
+      "email": "sales@metropolismerch.com"
+    },
+    "category": "DC",
+    "quantity": 20,
+    "details": "Show your support for the Man of Steel with this Superman Logo T-Shirt! Made with soft and comfortable fabric, this t-shirt features the iconic Superman logo on the front. Available in various sizes for both adults and kids. Perfect for everyday wear or as a gift for Superman fans."
+  },
+  {
+    "name": "Hellboy Deluxe Action Figure",
+    "img": "https://m.media-amazon.com/images/I/51KelpeO8bL._AC_UL320_.jpg",
+    "price": 29.99,
+    "rating": 4.5,
+    "seller": {
+      "name": "Dark Horse Collectibles",
+      "email": "sales@darkhorsecollectibles.com"
+    },
+    "category": "Dark Horse",
+    "quantity": 10,
+    "details": "Unleash the power of Hellboy with this deluxe action figure! Standing at 7 inches tall, this highly detailed figure features multiple points of articulation and comes with interchangeable hands, a removable trench coat, and his iconic Right Hand of Doom. Perfect for collectors and fans of the Dark Horse comic series."
+  },
+  {
+    "name": "The Umbrella Academy Poster Set",
+    "img": "https://m.media-amazon.com/images/I/61nXuGxxwvL._AC_UL320_.jpg",
+    "price": 19.99,
+    "rating": 4.7,
+    "seller": {
+      "name": "Dark Horse Merchandise",
+      "email": "sales@darkhorsemerch.com"
+    },
+    "category": "Dark Horse",
+    "quantity": 8,
+    "details": "Decorate your space with The Umbrella Academy Poster Set! This set includes a collection of high-quality posters featuring the main characters from the popular Dark Horse comic series. Each poster showcases unique artwork and measures 18x24 inches. Perfect for fans of The Umbrella Academy."
+  },
+  {
+    "name": "Lady Death Collectible Statue",
+    "img": "https://m.media-amazon.com/images/I/51j3eDqthkL._AC_UL320_.jpg",
+    "price": 89.99,
+    "rating": 4.8,
+    "seller": {
+      "name": "Grim Reaper Collectibles",
+      "email": "info@grimreapercollectibles.com"
+    },
+    "category": "Dark Horse",
+    "quantity": 15,
+    "details": "Bring the iconic Lady Death to your collection with this stunning collectible statue! Standing at 12 inches tall, this meticulously crafted statue captures the essence of the powerful character from the Dark Horse comic series. Made with high-quality materials, it is a must-have for Lady Death fans and collectors."
+  },
+  {
+    "name": "Concrete: Strange Armor Graphic Novel",
+    "img": "https://m.media-amazon.com/images/I/51jfbbmmtzL._AC_UL320_.jpg",
+    "price": 14.99,
+    "rating": 4.4,
+    "seller": {
+      "name": "Dark Horse Books",
+      "email": "sales@darkhorsebooks.com"
+    },
+    "category": "Dark Horse",
+    "quantity": 20,
+    "details": "Immerse yourself in the world of Concrete with the Strange Armor Graphic Novel! This captivating story follows the adventures of Ron Lithgow, a man trapped in a concrete body with extraordinary strength. Written by Paul Chadwick, this critically acclaimed Dark Horse comic series is now collected in this graphic novel edition."
+  },
+  {
+    "name": "Barb Wire Vinyl Figure",
+    "img": "https://m.media-amazon.com/images/I/41JtML-rLCL._AC_US40_.jpg",
+    "price": 19.99,
+    "rating": 4.6,
+    "seller": {
+      "name": "Dark Horse Collectibles",
+      "email": "sales@darkhorsecollectibles.com"
+    },
+    "category": "Dark Horse",
+    "quantity": 12,
+    "details": "Add the tough and fearless Barb Wire to your collection with this vinyl figure! Standing at 8 inches tall, this stylized figure features Barb Wire in her signature outfit, complete with her weapon of choice. Perfect for fans of the Dark Horse comic series and collectors of vinyl figures."
+  },
+  {
+    "name": "Sin City Playing Cards",
+    "img": "https://m.media-amazon.com/images/I/71rrYmSvllL._AC_UL320_.jpg",
+    "price": 9.99,
+    "rating": 4.8,
+    "seller": {
+      "name": "Frank Miller Collectibles",
+      "email": "info@frankmillercollectibles.com"
+    },
+    "category": "Dark Horse",
+    "quantity": 15,
+    "details": "Experience the gritty world of Sin City with this deck of playing cards! Each card features stunning artwork inspired by Frank Miller's iconic Dark Horse comic series. Whether you're a fan of poker or collector of unique playing cards, this set is a must-have for Sin City enthusiasts."
+  }
+]
