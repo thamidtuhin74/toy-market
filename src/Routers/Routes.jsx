@@ -16,6 +16,7 @@ import AllToys from "../Pages/AllToys/AllToys";
 import AddAToy from "../Pages/AddAToy/AddAToy";
 import MyToys from "../Pages/MyToys/MyToys";
 import Details from "../Components/Details/Details";
+import Edit from "../Components/Edit/Edit";
 
   const router = createBrowserRouter([
     {
@@ -59,10 +60,15 @@ import Details from "../Components/Details/Details";
           element: <Details></Details> ,
           loader: ({params})=> fetch(`http://localhost:5000/all-toys/${params.id}`)
       },
-        {
-            path: "/*",
-            element: <PageNotFound></PageNotFound>
-        },
+      {
+        path: "/edit/:id",
+        element: <Edit></Edit> ,
+        loader: ({params})=> fetch(`http://localhost:5000/all-toys/${params.id}`)
+      },
+      {
+          path: "/*",
+          element: <PageNotFound></PageNotFound>
+      },
         
       ]
     },
