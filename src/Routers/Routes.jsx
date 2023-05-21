@@ -51,7 +51,8 @@ import Details from "../Components/Details/Details";
       },
       {
           path: "/my-toys",
-          element: <PrivateRoute><MyToys></MyToys></PrivateRoute>
+          element: <PrivateRoute><MyToys></MyToys></PrivateRoute>,
+          loader: ()=>fetch('http://localhost:5000/all-toys')
       },
       {
           path: "/all-toys/:id",
