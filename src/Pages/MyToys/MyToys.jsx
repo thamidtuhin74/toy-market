@@ -29,7 +29,7 @@ const MyToys = () => {
                             <input type="checkbox" className="checkbox" />
                         </label>
                         </th>
-                        <th>Name</th>
+                        <th>Img</th>
                         <th>Name & Category</th>
                         <th>Details</th>
                         <th>Price & Rating</th>
@@ -51,11 +51,16 @@ const MyToys = () => {
                     {/* foot */}
                     <tfoot>
                     <tr>
-                        <th></th>
-                        <th>Name</th>
-                        <th>Job</th>
-                        <th>Favorite Color</th>
-                        <th></th>
+                    <th>
+                        <label>
+                            <input type="checkbox" className="checkbox" />
+                        </label>
+                        </th>
+                        <th>Img</th>
+                        <th>Name & Category</th>
+                        <th>Details</th>
+                        <th>Price & Rating</th>
+                        <th>Edit/Update</th>
                     </tr>
                     </tfoot>
                     
