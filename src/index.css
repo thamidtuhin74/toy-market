@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* body{
+    background: rgb(135,126,208);
+background: linear-gradient(90deg, rgba(135,126,208,1) 7%, rgba(157,59,181,0.9668242296918768) 53%, rgba(102,0,255,0.9752275910364145) 100%);
+}
+
+p{
+    word-break: break-all;
+    white-space: normal;
+} */

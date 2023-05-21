@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "img": "https://img.freepik.com/free-photo/chef-making-ok-sign-white-background_1368-2804.jpg",
+    "name": "John Smith",
+    "yearsOfExperience": 10,
+    "numberOfRecipes": 25,
+    "likes": 1000,
+  "bio": "is a world-renowned Japanese chef who specializes in fusion cuisine. He was born in Hiroshima, Japan, and trained in the art of sushi-making from a young age. After moving to the United States, he worked at some of the most prestigious Japanese restaurants in New York City before opening his own restaurant, Morimoto, in 2001. He has since become a household name and has appeared on numerous television shows, including Iron Chef and Iron Chef America.",
+    "recipes": [
+    {	"id": 1,    
+    "name": "Sushi Rolls",
+    "img": "https://img.freepik.com/free-photo/side-view-mix-sushi-rolls-tray-with-ginger-wasabi_141793-14242.jpg",
+    "ingredients": ["sushi rice", "nori sheets", "assorted vegetables", "raw fish", "wasabi"],
+    "cookingMethod": "1. Cook sushi rice according to package instructions. 2. Lay a sheet of nori on a sushi mat. 3. Spread a layer of rice on the nori, leaving a small space at the top. 4. Place your desired fillings (vegetables, raw fish, etc.) on top of the rice. 5. Roll the sushi tightly using the mat, tucking in the filling as you go. 6. Wet the top edge of the nori with water to seal the roll. 7. Cut the sushi roll into pieces and serve with soy sauce and wasabi.",
+    "rating": 4.8
+    },
+    {
+    "id": 2,
+    "name": "Tempura",
+    "img": "https://cdn.sanity.io/images/f3knbc2s/production/e10c73a37fdcb4b5e43fc4c6fa1dba9e05f8b453-1024x605.jpg",
+    "ingredients": ["shrimp", "vegetables", "flour", "cornstarch", "cold water"],
+    "cookingMethod": "1. Clean and devein shrimp, leaving the tail on. 2. Cut vegetables into bite-sized pieces. 3. In a large bowl, mix flour, cornstarch, and cold water until smooth. 4. Heat oil in a deep fryer or large pot to 375°F. 5. Dip shrimp and vegetables into the batter and let excess batter drip off. 6. Fry the shrimp and vegetables in batches until golden brown. 7. Serve hot with tempura dipping sauce.",
+    "rating": 4.7
+    },
+    {
+    "id": 3,
+    "name": "Ramen",
+    "img": "https://img.freepik.com/free-photo/freshly-cooked-ramen-noodles-with-pork-vegetables-generative-ai_188544-12759.jpg",
+    "ingredients": ["pork belly", "ramen noodles", "egg", "green onions", "seaweed"],
+    "cookingMethod": "1. Cut pork belly into thin slices and cook in a pan until browned. 2. Boil ramen noodles according to package instructions. 3. Soft-boil an egg by boiling it for 6 minutes, then placing it in cold water to stop the cooking process. 4. Slice green onions thinly. 5. Place cooked noodles in a bowl and top with sliced pork belly, egg, and green onions. 6. Pour hot broth (chicken or pork) over the noodles. 7. Garnish with seaweed and serve hot.",
+    "rating": 4.9
+    }
+    ]
+  },
+  {
+      "id": 2,
+      "img": "https://img.freepik.com/free-photo/portrait-smiling-chef-uniform_329181-675.jpg",
+      "name": "Maria Rodriguez",
+      "yearsOfExperience": 8,
+      "numberOfRecipes": 30,
+  "bio": "is a world-renowned Japanese chef who specializes in fusion cuisine. He was born in Hiroshima, Japan, and trained in the art of sushi-making from a young age. After moving to the United States, he worked at some of the most prestigious Japanese restaurants in New York City before opening his own restaurant, Morimoto, in 2001. He has since become a household name and has appeared on numerous television shows, including Iron Chef and Iron Chef America.",
+      "likes": 1500,
+      "recipes": [
+        {	"id": 1,    
+    "name": "Ramen",
+    "img": "https://img.freepik.com/free-photo/freshly-cooked-ramen-noodles-with-pork-vegetables-generative-ai_188544-12759.jpg",
+    "ingredients": ["pork belly", "ramen noodles", "egg", "green onions", "seaweed"],
+    "cookingMethod": "1. Cut pork belly into thin slices and cook in a pan until browned. 2. Boil ramen noodles according to package instructions. 3. Soft-boil an egg by boiling it for 6 minutes, then placing it in cold water to stop the cooking process. 4. Slice green onions thinly. 5. Place cooked noodles in a bowl and top with sliced pork belly, egg, and green onions. 6. Pour hot broth (chicken or pork) over the noodles. 7. Garnish with seaweed and serve hot.",
+    "rating": 4.9
+    },
+    {
+    "id": 2,
+    "name": "Udon Noodles",
+    "img": "https://img.freepik.com/free-photo/noodles-with-beef-vegetables-black-table_141793-1729.jpg",
+    "ingredients": ["udon noodles", "shiitake mushrooms", "carrots", "onion", "soy sauce"],
+    "cookingMethod": "1. Cook udon noodles according to package instructions. 2. Slice shiitake mushrooms, carrots, and onion thinly. 3. Heat oil in a large pan or wok over medium-high heat. 4. Add vegetables and stir-fry until tender. 5. Add cooked noodles and soy sauce to the pan and stir-fry until everything is heated through. 6. Serve hot.",
+    "rating": 4.5
+    },
+    {
+    "id": 4,
+    "name": "Miso Soup",
+    "img": "https://img.freepik.com/free-photo/miso-soup-with-mushrooms-table_140725-5328.jpg",
+    "ingredients": ["dashi stock", "miso paste", "tofu", "seaweed", "green onions"],
+    "cookingMethod": "1. Heat dashi stock in a pot over medium heat. 2. Add miso paste and whisk until dissolved. 3. Cut tofu into small cubes and add to the pot. 4. Cut seaweed into small pieces and add to the pot. 5. Simmer for a few minutes until everything is heated through. 6. Garnish with sliced green onions and serve hot.",
+    "rating": 4.8
+    }
+      ]
+  },
+  {
+      "id": 3,
+      "img": "https://img.freepik.com/free-photo/male-cook-standing-kitchen-presenting-delicious-dish_23-2147863798.jpg",
+      "name": "Jane Doe",
+      "yearsOfExperience": 15,
+      "numberOfRecipes": 50,
+  "bio": "is a world-renowned Japanese chef who specializes in fusion cuisine. He was born in Hiroshima, Japan, and trained in the art of sushi-making from a young age. After moving to the United States, he worked at some of the most prestigious Japanese restaurants in New York City before opening his own restaurant, Morimoto, in 2001. He has since become a household name and has appeared on numerous television shows, including Iron Chef and Iron Chef America.",
+      "likes": 5000,
+      "recipes": [
+        {	"id": 1,    "name": "Sushi Rolls",
+    "img": "https://img.freepik.com/free-photo/side-view-mix-sushi-rolls-tray-with-ginger-wasabi_141793-14242.jpg",
+    "ingredients": ["sushi rice", "nori sheets", "assorted vegetables", "raw fish", "wasabi"],
+    "cookingMethod": "1. Cook sushi rice according to package instructions. 2. Lay a sheet of nori on a sushi mat. 3. Spread a layer of rice on the nori, leaving a small space at the top. 4. Place your desired fillings (vegetables, raw fish, etc.) on top of the rice. 5. Roll the sushi tightly using the mat, tucking in the filling as you go. 6. Wet the top edge of the nori with water to seal the roll. 7. Cut the sushi roll into pieces and serve with soy sauce and wasabi.",
+    "rating": 4.8
+    },
+    {
+    "id": 2,
+    "name": "Tempura",
+    "img": "https://cdn.sanity.io/images/f3knbc2s/production/e10c73a37fdcb4b5e43fc4c6fa1dba9e05f8b453-1024x605.jpg",
+    "ingredients": ["shrimp", "vegetables", "flour", "cornstarch", "cold water"],
+    "cookingMethod": "1. Clean and devein shrimp, leaving the tail on. 2. Cut vegetables into bite-sized pieces. 3. In a large bowl, mix flour, cornstarch, and cold water until smooth. 4. Heat oil in a deep fryer or large pot to 375°F. 5. Dip shrimp and vegetables into the batter and let excess batter drip off. 6. Fry the shrimp and vegetables in batches until golden brown. 7. Serve hot with tempura dipping sauce.",
+    "rating": 4.7
+    },
+    {
+    "id": 3,
+    "name": "Tonkatsu",
+    "img": "https://www.marionskitchen.com/wp-content/uploads/2021/08/20201110_Spicy-Pork-Tonkatsu-11.jpg",
+    "ingredients": ["pork loin", "flour", "egg", "panko breadcrumbs", "vegetable oil"],
+    "cookingMethod": "1. Cut pork loin into thin cutlets. 2. Coat each cutlet in flour, then dip in beaten egg. 3. Coat each cutlet in panko breadcrumbs. 4. Heat oil in a large pan over medium-high heat. 5. Fry the cutlets until golden brown and crispy. 6. Serve hot with tonkatsu sauce and rice.",
+    "rating": 4.7
+    }
+      ]
+  },
+  {
+      "id": 4,
+      "img": "https://img.freepik.com/premium-photo/cooking-advertisement-people-concept-smiling-female-chef-cook-baker-holding-something-palms-hands-green-background_380164-82204.jpg?size=626&ext=jpg",
+      "name": "Jamie Nguyen",
+      "yearsOfExperience": 12,
+      "numberOfRecipes": 50,
+  "bio": "is a world-renowned Japanese chef who specializes in fusion cuisine. He was born in Hiroshima, Japan, and trained in the art of sushi-making from a young age. After moving to the United States, he worked at some of the most prestigious Japanese restaurants in New York City before opening his own restaurant, Morimoto, in 2001. He has since become a household name and has appeared on numerous television shows, including Iron Chef and Iron Chef America.",
+      "likes": 2800,
+      "recipes": [
+    { "id": 1,    
+    "name": "Ramen",
+    "img": "https://img.freepik.com/free-photo/freshly-cooked-ramen-noodles-with-pork-vegetables-generative-ai_188544-12759.jpg",
+    "ingredients": ["pork belly", "ramen noodles", "egg", "green onions", "seaweed"],
+    "cookingMethod": "1. Cut pork belly into thin slices and cook in a pan until browned. 2. Boil ramen noodles according to package instructions. 3. Soft-boil an egg by boiling it for 6 minutes, then placing it in cold water to stop the cooking process. 4. Slice green onions thinly. 5. Place cooked noodles in a bowl and top with sliced pork belly, egg, and green onions. 6. Pour hot broth (chicken or pork) over the noodles. 7. Garnish with seaweed and serve hot.",
+    "rating": 4.9
+    },
+        {
+    "id": 2,
+    "name": "Tempura",
+    "img": "https://cdn.sanity.io/images/f3knbc2s/production/e10c73a37fdcb4b5e43fc4c6fa1dba9e05f8b453-1024x605.jpg",
+    "ingredients": ["shrimp", "vegetables", "flour", "cornstarch", "cold water"],
+    "cookingMethod": "1. Clean and devein shrimp, leaving the tail on. 2. Cut vegetables into bite-sized pieces. 3. In a large bowl, mix flour, cornstarch, and cold water until smooth. 4. Heat oil in a deep fryer or large pot to 375°F. 5. Dip shrimp and vegetables into the batter and let excess batter drip off. 6. Fry the shrimp and vegetables in batches until golden brown. 7. Serve hot with tempura dipping sauce.",
+    "rating": 4.7
+    },
+    {
+    "id": 3,
+    "name": "Tonkatsu",
+    "img": "https://www.marionskitchen.com/wp-content/uploads/2021/08/20201110_Spicy-Pork-Tonkatsu-11.jpg",
+    "ingredients": ["pork loin", "flour", "egg", "panko breadcrumbs", "vegetable oil"],
+    "cookingMethod": "1. Cut pork loin into thin cutlets. 2. Coat each cutlet in flour, then dip in beaten egg. 3. Coat each cutlet in panko breadcrumbs. 4. Heat oil in a large pan over medium-high heat. 5. Fry the cutlets until golden brown and crispy. 6. Serve hot with tonkatsu sauce and rice.",
+    "rating": 4.7
+    }
+      ]
+    },
+    {
+      "id": 5,
+      "img": "https://img.freepik.com/premium-photo/female-chef-with-tray-food-hand-isolated-white_70216-4205.jpg",
+      "name": "Sophia Kim",
+      "yearsOfExperience": 8,
+      "numberOfRecipes": 20,
+  "bio": "is a world-renowned Japanese chef who specializes in fusion cuisine. He was born in Hiroshima, Japan, and trained in the art of sushi-making from a young age. After moving to the United States, he worked at some of the most prestigious Japanese restaurants in New York City before opening his own restaurant, Morimoto, in 2001. He has since become a household name and has appeared on numerous television shows, including Iron Chef and Iron Chef America.",
+      "likes": 1000,
+      "recipes": [
+          {
+    "id": 1,
+    "name": "Tonkatsu",
+    "img": "https://www.marionskitchen.com/wp-content/uploads/2021/08/20201110_Spicy-Pork-Tonkatsu-11.jpg",
+    "ingredients": ["pork loin", "flour", "egg", "panko breadcrumbs", "vegetable oil"],
+    "cookingMethod": "1. Cut pork loin into thin cutlets. 2. Coat each cutlet in flour, then dip in beaten egg. 3. Coat each cutlet in panko breadcrumbs. 4. Heat oil in a large pan over medium-high heat. 5. Fry the cutlets until golden brown and crispy. 6. Serve hot with tonkatsu sauce and rice.",
+    "rating": 4.7
+    },
+    {
+    "id": 2,
+    "name": "Miso Soup",
+    "img": "https://img.freepik.com/free-photo/miso-soup-with-mushrooms-table_140725-5328.jpg",
+    "ingredients": ["dashi stock", "miso paste", "tofu", "seaweed", "green onions"],
+    "cookingMethod": "1. Heat dashi stock in a pot over medium heat. 2. Add miso paste and whisk until dissolved. 3. Cut tofu into small cubes and add to the pot. 4. Cut seaweed into small pieces and add to the pot. 5. Simmer for a few minutes until everything is heated through. 6. Garnish with sliced green onions and serve hot.",
+    "rating": 4.8
+    },
+    {    
+    "id": 3,    
+    "name": "Yakitori",    
+    "img": "https://img.freepik.com/premium-photo/grilled-chicken-gizzard-skewer-yakitori-serve-izakaya-style_1339-179077.jpg",    
+    "ingredients": ["chicken thighs", "green onions", "soy sauce", "sugar", "mirin"],
+    "cookingMethod": "1. Cut chicken thighs into bite-sized pieces. 2. Cut green onions into 2-inch pieces. 3. Thread chicken and green onions onto skewers. 4. Mix soy sauce, sugar, and mirin in a small bowl. 5. Grill skewers over medium-high heat, brushing with sauce and turning occasionally, until chicken is cooked through. 6. Serve hot with additional sauce and rice.",
+    "rating": 4.6
+    }
+      ]
+  },
+  {
+      "id": 6,
+      "img": "https://img.freepik.com/free-photo/studio-portrait-cook-man-with-fresh-vegetables-table_613910-9893.jpg",
+      "name": "Mia Patel",
+      "yearsOfExperience": 12,
+      "numberOfRecipes": 40,
+  "bio": "is a world-renowned Japanese chef who specializes in fusion cuisine. He was born in Hiroshima, Japan, and trained in the art of sushi-making from a young age. After moving to the United States, he worked at some of the most prestigious Japanese restaurants in New York City before opening his own restaurant, Morimoto, in 2001. He has since become a household name and has appeared on numerous television shows, including Iron Chef and Iron Chef America.",
+      "likes": 2000,
+      "recipes": [
+        {	"id": 1,    
+    "name": "Ramen",
+    "img": "https://img.freepik.com/free-photo/freshly-cooked-ramen-noodles-with-pork-vegetables-generative-ai_188544-12759.jpg",
+    "ingredients": ["pork belly", "ramen noodles", "egg", "green onions", "seaweed"],
+    "cookingMethod": "1. Cut pork belly into thin slices and cook in a pan until browned. 2. Boil ramen noodles according to package instructions. 3. Soft-boil an egg by boiling it for 6 minutes, then placing it in cold water to stop the cooking process. 4. Slice green onions thinly. 5. Place cooked noodles in a bowl and top with sliced pork belly, egg, and green onions. 6. Pour hot broth (chicken or pork) over the noodles. 7. Garnish with seaweed and serve hot.",
+    "rating": 4.9
+    },
+    {
+    "id": 2,
+    "name": "Udon Noodles",
+    "img": "https://img.freepik.com/free-photo/noodles-with-beef-vegetables-black-table_141793-1729.jpg",
+    "ingredients": ["udon noodles", "shiitake mushrooms", "carrots", "onion", "soy sauce"],
+    "cookingMethod": "1. Cook udon noodles according to package instructions. 2. Slice shiitake mushrooms, carrots, and onion thinly. 3. Heat oil in a large pan or wok over medium-high heat. 4. Add vegetables and stir-fry until tender. 5. Add cooked noodles and soy sauce to the pan and stir-fry until everything is heated through. 6. Serve hot.",
+    "rating": 4.5
+    },
+    {
+    "id": 3,
+    "name": "Tonkatsu",
+    "img": "https://www.marionskitchen.com/wp-content/uploads/2021/08/20201110_Spicy-Pork-Tonkatsu-11.jpg",
+    "ingredients": ["pork loin", "flour", "egg", "panko breadcrumbs", "vegetable oil"],
+    "cookingMethod": "1. Cut pork loin into thin cutlets. 2. Coat each cutlet in flour, then dip in beaten egg. 3. Coat each cutlet in panko breadcrumbs. 4. Heat oil in a large pan over medium-high heat. 5. Fry the cutlets until golden brown and crispy. 6. Serve hot with tonkatsu sauce and rice.",
+    "rating": 4.7
+    },
+    {
+    "id": 4,
+    "name": "Miso Soup",
+    "img": "https://img.freepik.com/free-photo/miso-soup-with-mushrooms-table_140725-5328.jpg",
+    "ingredients": ["dashi stock", "miso paste", "tofu", "seaweed", "green onions"],
+    "cookingMethod": "1. Heat dashi stock in a pot over medium heat. 2. Add miso paste and whisk until dissolved. 3. Cut tofu into small cubes and add to the pot. 4. Cut seaweed into small pieces and add to the pot. 5. Simmer for a few minutes until everything is heated through. 6. Garnish with sliced green onions and serve hot.",
+    "rating": 4.8
+    },
+    {    
+    "id": 5,    
+    "name": "Yakitori",    
+    "img": "https://img.freepik.com/premium-photo/grilled-chicken-gizzard-skewer-yakitori-serve-izakaya-style_1339-179077.jpg",    
+    "ingredients": ["chicken thighs", "green onions", "soy sauce", "sugar", "mirin"],
+    "cookingMethod": "1. Cut chicken thighs into bite-sized pieces. 2. Cut green onions into 2-inch pieces. 3. Thread chicken and green onions onto skewers. 4. Mix soy sauce, sugar, and mirin in a small bowl. 5. Grill skewers over medium-high heat, brushing with sauce and turning occasionally, until chicken is cooked through. 6. Serve hot with additional sauce and rice.",
+    "rating": 4.6
+    }
+      ]
+  }
+]

@@ -1,11 +1,14 @@
-// import React from 'react';
 import React, { useContext, useRef, useState } from 'react';
 import {FacebookAuthProvider, GithubAuthProvider, GoogleAuthProvider, getAuth, signInWithPopup, signInWithEmailAndPassword, signOut, sendPasswordResetEmail} from 'firebase/auth'
-import { Link, Navigate, useLocation, useNavigate } from 'react-router-dom';
-import app from "../../firebase/firebase.init";
-import { AuthContext } from '../../Providers/AuthProvider';
+import { Link } from 'react-router-dom';
+import app from '../../firebase/firebase.init';
+import { AuthContext } from "../../Provider/authProvider";
+import { Navigate, useLocation, useNavigate } from 'react-router-dom';
 
-const Login = () => {// useNavigate
+
+const Login = () => {
+
+    // useNavigate
     const navigate = useNavigate();
 
     //Load COntextapi
@@ -40,9 +43,6 @@ const Login = () => {// useNavigate
             const logInUser = result.user;
             console.log(logInUser);
             setUser(logInUser)
-            if(setUser){
-                alert('succesfull logedIN');
-            }
         })
         .catch(result =>{
             console.log(result.message)
@@ -55,9 +55,6 @@ const Login = () => {// useNavigate
             const logInUser = result.user;
             console.log(logInUser);
             setUser(logInUser)
-            if(setUser){
-                alert('succesfull logedIN');
-            }
         })
         .catch(result =>{
             console.log(result.message)
@@ -76,7 +73,6 @@ const Login = () => {// useNavigate
                 const user  = result.user;
                 setSuccess('User Login successfully');
                 navigate(from, {replace: true});
-                setUser(user)
                 
             })
             .catch(error => {
@@ -123,7 +119,6 @@ const Login = () => {// useNavigate
         setSeePassword(true);
     }
     
-    
     return (
         <div>
             <div className="hero min-h-screen">
@@ -162,7 +157,6 @@ const Login = () => {// useNavigate
                     }
                 </div>
             </div>
-
         </div>
     );
 };

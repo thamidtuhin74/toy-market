@@ -1,0 +1,10 @@
+
+@media only screen and (max-device-width: 640px) {
+    /* STYLES HERE */
+    .navbar-end-mobile, .big-s-signout{
+        display: none;
+    }
+    .navbar-end ul{
+        right: 10px;
+    }
+}

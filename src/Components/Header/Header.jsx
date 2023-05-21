@@ -1,22 +1,18 @@
-// import React from 'react';
-
-import { useContext, useState } from "react";
-import { Link } from "react-router-dom";
-import { AuthContext } from "../../Providers/AuthProvider";
+import React, { useContext, useState } from 'react';
+import { Link, NavLink } from 'react-router-dom';
+import './Header.css';
 import profileImg from '../../../src/assets/react.svg';
-
-
-// import { Link } from "react-router-dom";
-
+import { AuthContext } from "../../Provider/authProvider";
 
 const Header = () => {
+    // COntext API load
     const [show, setShow] = useState(false)
 
     const {user, logout} = useContext(AuthContext);
-    console.log('header : ' + user?.email);
+    // console.log('header : ' + user.email);
 
 
-    const signOutHndler = () =>{
+    const logoutHandler = () =>{
         logout()
             .then(()=>{
 
@@ -28,6 +24,7 @@ const Header = () => {
         }
     return (
         <div className='container mx-auto'>
+            
             <div className="navbar bg-base-100">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -65,15 +62,13 @@ const Header = () => {
                         </label>
                         <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
                             <li><Link to={''}>My Toys</Link></li>
-                            <li><Link to={''} onClick={signOutHndler()}>Logout</Link></li>
+                            <li><Link to={''} onClick={logoutHandler}>Logout</Link></li>
                         </ul>
                         </div>:<Link to={'/login'} className="btn">login</Link>
-
+                        
                     }
                     
                 </div>
-                
-                
             </div>
         </div>
     );

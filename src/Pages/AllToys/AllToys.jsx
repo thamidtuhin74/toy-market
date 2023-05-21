@@ -2,7 +2,7 @@ import React from 'react';
 
 import { useState } from "react";
 import { useLoaderData } from "react-router-dom";
-import ToyCard from '../../Component/toyCard/toyCard';
+import ToyCard from '../../Components/ToyCard/ToyCard';
 
 
 

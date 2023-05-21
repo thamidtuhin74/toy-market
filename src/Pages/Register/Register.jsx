@@ -4,8 +4,7 @@ import { Link } from 'react-router-dom';
 // import AuthContext from '../Provider/authProvider';
 import app from '../../firebase/firebase.init';
 import { Navigate, useLocation, useNavigate } from 'react-router-dom';
-import { AuthContext } from "../../Providers/AuthProvider";
-// import { AuthContext } from "../../Provider/authProvider";
+import { AuthContext } from "../../Provider/authProvider";
 
 
 

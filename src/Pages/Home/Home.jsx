@@ -1,12 +1,8 @@
-// import React from 'react';
+import React from 'react';
 
 import { Link } from "react-router-dom";
 
 const Home = () => {
-
-    fetch('data.json')
-        .then(res => res.json())
-        .then(data => console.log(data))
 
     return (
         <div>
