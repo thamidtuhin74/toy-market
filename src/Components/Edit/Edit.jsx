@@ -35,13 +35,28 @@ const Edit = () => {
     return (
         <div className='container mx-auto'>
             <form onSubmit={handleaEditAToy}>
-            
+
+            <div className='flex'>
+                    <div className='md:w-1/2'>
+                        <label className="label">
+                            <span className="label-text">Toy Price</span>
+                        </label>
+                        <input className="border-purple-700 py-1 input input-bordered w-full " type="text" placeholder="price"  name="price" defaultValue={toy?.price} required/>
+                    </div>
+
+                    <div className='md:w-1/2'>
+                        <label className="label">
+                            <span className="label-text">Toy quantity</span>
+                        </label>
+                        <input className="border-purple-700 py-1 input input-bordered   w-full" type="text" placeholder="quantity"  name="quantity" defaultValue={toy?.quantity} required/>  
+                    </div>
+                </div>
+                <label className="label">
+                    <span className="label-text">Toy details</span>
+                </label>
+                <input className="border-purple-700 py-1 input input-bordered   w-full" type="text" placeholder="details"  name="details" defaultValue={toy?.details}/><br />
                 
-                <input className="border-purple-700 py-1" type="text" placeholder="price"  name="price" defaultValue={toy?.price}/><br />
-                <input className="border-purple-700 py-1" type="text" placeholder="quantity"  name="quantity" defaultValue={toy?.quantity}/><br />
-                <input className="border-purple-700 py-1" type="text" placeholder="details"  name="details" defaultValue={toy?.details}/><br />
-                
-                <input type="submit" name="Update" id="" />
+                <input className='btn bg-red-400' type="submit" name="Update" id="" value="Update"/>
                 
             </form>
         </div>

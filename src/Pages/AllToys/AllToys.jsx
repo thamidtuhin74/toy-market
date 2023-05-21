@@ -20,12 +20,12 @@ const AllToys = () => {
         //     return toString(toy).name.toLowerCase().includes(itemName.toLowerCase());
         // });
 
-        const remaining = toys.filter((toy)=>toy.name.includes('S').map(filteredName =>{ 
-            <li>
-            {filteredName}
-            </li>
-           }));
-        console.log('remaining',remaining)
+        // const remaining = toys.filter((toy)=>toy.name.includes('S').map(filteredName =>{ 
+        //     <li>
+        //     {filteredName}
+        //     </li>
+        //    }));
+        // console.log('remaining',remaining)
     }
 
 
