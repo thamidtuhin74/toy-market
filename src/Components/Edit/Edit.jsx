@@ -1,45 +1,48 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
-import {
-    MDBRow,
-    MDBCol,
-    MDBInput,
-    MDBCheckbox,
-    MDBBtn
-  } from 'mdb-react-ui-kit';
+import Select from 'react-select';
+
+
 
 const Edit = () => {
     const toy = useLoaderData();
     console.log(toy);
+
+    
+
+    const handleaEditAToy = event =>{
+        event.preventDefault();
+
+        const price = event.target.price.value;
+        const quantity = event.target.quantity.value;
+        const details = event.target.details.value;
+        // console.log('newCategory' , newCategory)
+
+        const updateToy = {price,quantity,details};
+        
+        console.log(updateToy);
+        fetch( `http://localhost:5000/all-toys/${toy._id}`,{
+            method: 'PUT',
+            headers: {
+                'content-type':'application/json'
+            },
+            body: JSON.stringify(updateToy)
+            })
+                .then(res=> res.json())
+                .then(data => console.log(data))
+    }
+
     return (
-        <div>
-            <form>
-                <MDBRow className='mb-4'>
-                    <MDBCol>
-                    <MDBInput id='form6Example1' label='First name' />
-                    </MDBCol>
-                    <MDBCol>
-                    <MDBInput id='form6Example2' label='Last name' />
-                    </MDBCol>
-                </MDBRow>
-
-                <MDBInput wrapperClass='mb-4' id='form6Example3' label='Company name' />
-                <MDBInput wrapperClass='mb-4' id='form6Example4' label='Address' />
-                <MDBInput wrapperClass='mb-4' type='email' id='form6Example5' label='Email' />
-                <MDBInput wrapperClass='mb-4' type='tel' id='form6Example6' label='Phone' />
-
-                <MDBInput wrapperClass='mb-4' textarea id='form6Example7' rows={4} label='Additional information' />
-
-                <MDBCheckbox
-                    wrapperClass='d-flex justify-content-center mb-4'
-                    id='form6Example8'
-                    label='Create an account?'
-                    defaultChecked
-                />
-
-                <MDBBtn className='mb-4' type='submit' block>
-                    Place order
-                </MDBBtn>
+        <div className='container mx-auto'>
+            <form onSubmit={handleaEditAToy}>
+            
+                
+                <input className="border-purple-700 py-1" type="text" placeholder="price"  name="price" defaultValue={toy?.price}/><br />
+                <input className="border-purple-700 py-1" type="text" placeholder="quantity"  name="quantity" defaultValue={toy?.quantity}/><br />
+                <input className="border-purple-700 py-1" type="text" placeholder="details"  name="details" defaultValue={toy?.details}/><br />
+                
+                <input type="submit" name="Update" id="" />
+                
             </form>
         </div>
     );
