@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import swal from 'sweetalert';
+
 
 const MyToy = ({myToy , toys ,setToys}) => {
 
@@ -9,21 +11,38 @@ const MyToy = ({myToy , toys ,setToys}) => {
 
 
     const delectHandler = (id) =>{
-        console.log('delectHandler: '+ id );
-        fetch(`http://localhost:5000/all-toys/${id}`,{
-            method: 'DELETE'
-            // headers: 
-        })
-            .then(res => res.json())
-            .then(data => {
-                console.log(data);
-                if(data.deletedCount){
-                    alert('successfully delect');
 
-                    const remaining = toys.filter(toy => toy._id !== id);
-                    setToys(remaining);
-                }
-            })
+        swal({
+            title: "Are you sure?",
+            text: "Once deleted, you will not be able to recover this imaginary file!",
+            icon: "warning",
+            buttons: true,
+            dangerMode: true,
+          })
+          .then((willDelete) => {
+            if (willDelete) {
+                console.log('delectHandler: '+ id );
+                fetch(`http://localhost:5000/all-toys/${id}`,{
+                    method: 'DELETE'
+                    // headers: 
+                })
+                    .then(res => res.json())
+                    .then(data => {
+                        console.log(data);
+                        if(data.deletedCount){
+                            const remaining = toys.filter(toy => toy._id !== id);
+                            setToys(remaining);
+                        }
+                    })
+              swal("Your deleted a Toy!", {
+                icon: "success",
+              });
+            } else {
+              swal("Your imaginary file is safe!");
+            }
+          });
+
+        
     }
 
 

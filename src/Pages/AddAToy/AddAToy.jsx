@@ -42,7 +42,8 @@ const AddAToy = () => {
                 .then(res=> res.json())
                 .then(data => console.log(data))
 
-                if(data.acknowledged){
+                if(data.insertedId){
+                    alert('You Successfully add a new Toy!')
                     swal({
                         title: "Good job!",
                         text: "You Successfully add a new Toy!",
