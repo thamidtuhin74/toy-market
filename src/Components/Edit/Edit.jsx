@@ -35,7 +35,7 @@ const Edit = () => {
           })
           .then((willDelete) => {
             if (willDelete) {
-                fetch( `http://localhost:5000/all-toys/${toy._id}`,{
+                fetch( `https://top-market-server.vercel.app/all-toys/${toy._id}`,{
                 method: 'PUT',
                 headers: {
                     'content-type':'application/json'
@@ -51,7 +51,7 @@ const Edit = () => {
               swal("Your imaginary file is safe!");
             }
           });
-        // fetch( `http://localhost:5000/all-toys/${toy._id}`,{
+        // fetch( `https://top-market-server.vercel.app/all-toys/${toy._id}`,{
         //     method: 'PUT',
         //     headers: {
         //         'content-type':'application/json'

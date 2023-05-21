@@ -1,13 +1,13 @@
-### LIVE ProJECT : https://chef-recipe-hunter-8f8f7.web.app/ 
+### LIVE ProJECT : https://toy-market-9e676.web.app/
 
-### SERVER API production link: https://chef-recipe-hunter-server-thamidtuhin74.vercel.app
+### SERVER API production link: 
 
-## All chefs API link : https://chef-recipe-hunter-server-thamidtuhin74.vercel.app/chefs
+## All chefs API link : https://top-market-server.vercel.app/all-toys/
 
-## single Chefs data link : https://chef-recipe-hunter-server-thamidtuhin74.vercel.app/chefs/:id
+## single Chefs data link : https://top-market-server.vercel.app/all-toys/:id
 
 
-This is a website Food Recipe bases on different Chef;
+This website for the Super Hero Toys website. Here User Car Create , Delete, Update Toys!
 
 I'm using some technology / Language to build it
 
@@ -16,13 +16,16 @@ I'm using some technology / Language to build it
 * HTML
 * CSS(Tailwind CSS)
 * DaisyUI
-* Toastify
+* SweetTost
+* React-Tab
 
 ## BackEND
 * Express Js
+* Node Js
 * Firebase Authentication 
 
 
 ## User Features:
 user can Login with email & password , Google ,Github account.
 User Can not Access the Chef Details without Login
+User Can Make CRUD Operation . 

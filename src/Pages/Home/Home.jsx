@@ -1,34 +1,38 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-import { Link } from "react-router-dom";
+import { Link, useLoaderData } from "react-router-dom";
+import ImageCard from '../../Components/ImageCard/ImageCard';
+import Hero from '../../Components/Hero/Hero';
+import ToyCard from '../../Components/ToyCard/ToyCard';
+import CategoryTab from '../../Components/CategoryTab/CategoryTab';
 
 const Home = () => {
+    const allToys = useLoaderData();
+    const [toys, setToys] = useState(allToys);
+    let countImage = 0;
 
     return (
-        <div>
-            <div className="carousel w-full">
-                <div id="slide1" className="carousel-item relative w-full">
-                    <img src="/mountains-best-for-desktop-background-wallpaper-preview.jpg" className="w-full" />
-                    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <Link to="#slide4" className="btn btn-circle">❮</Link> 
-                    <Link to="#slide2" className="btn btn-circle">❯</Link>
-                    </div>
-                </div> 
-                <div id="slide2" className="carousel-item relative w-full">
-                    <img src="/sun-4285357_1920.jpg" className="w-full" />
-                    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <Link to="#slide1" className="btn btn-circle">❮</Link> 
-                    <Link to="#slide2" className="btn btn-circle">❯</Link>
-                    </div>
-                </div> 
-                <div id="slide3" className="carousel-item relative w-full">
-                    <img src="/public/neon-4k-hd-best-for-desktop-wallpaper-preview.jpg" className="w-full" />
-                    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <Link to="#slide2" className="btn btn-circle">❮</Link> 
-                    <Link to="#slide4" className="btn btn-circle">❯</Link>
-                    </div>
-                </div> 
+        <div className='container mx-auto'>
+
+            <Hero></Hero>
+            
+            <h2 className='font-bold py-5 text-5xl text-center text-blue-700 '>Product Gelery</h2>
+            <ImageCard ></ImageCard>
+            <div className='grid lg:grid-cols-3 md:grid-cols-2 gap-4'>
+                {/* {
+                    toys.map(toy=><ToyCard
+                        key = {toy._id}
+                        toy = {toy}
+                    ></ToyCard>)
+                    } */}
+                {
+                    allToys.map(toy=><ToyCard
+                        key = {toy._id}
+                        toy = {toy}
+                    ></ToyCard>)
+                }
             </div>
+            <CategoryTab></CategoryTab>
         </div>
     );
 };

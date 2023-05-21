@@ -5,7 +5,7 @@ const ToyCard = ({toy}) => {
     const {_id,name, img, price,rating,seller,category,quantity,details} = toy;
 
     const ViewDetailsHandler = (id) =>{
-        fetch(`http://localhost:5000/all-toys/${id}`)
+        fetch(`https://top-market-server.vercel.app/all-toys/${id}`)
         .then(res => res.json())
         .then(data => console.log(data))
     }

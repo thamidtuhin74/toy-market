@@ -22,7 +22,7 @@ const MyToy = ({myToy , toys ,setToys}) => {
           .then((willDelete) => {
             if (willDelete) {
                 console.log('delectHandler: '+ id );
-                fetch(`http://localhost:5000/all-toys/${id}`,{
+                fetch(`https://top-market-server.vercel.app/all-toys/${id}`,{
                     method: 'DELETE'
                     // headers: 
                 })

@@ -15,17 +15,6 @@ const AllToys = () => {
     const searchHandler = (event) =>{
         event.preventDefault();
         const itemName = toString(event.target.itemName.value);
-        
-        // const remaining = toys.filter((toy)=>{
-        //     return toString(toy).name.toLowerCase().includes(itemName.toLowerCase());
-        // });
-
-        // const remaining = toys.filter((toy)=>toy.name.includes('S').map(filteredName =>{ 
-        //     <li>
-        //     {filteredName}
-        //     </li>
-        //    }));
-        // console.log('remaining',remaining)
     }
 
 
