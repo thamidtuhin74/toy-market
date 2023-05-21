@@ -40,17 +40,19 @@ const AddAToy = () => {
             body: JSON.stringify(newToy)
             })
                 .then(res=> res.json())
-                .then(data => console.log(data))
+                .then(data => {
+                    console.log(data)
+                    if(data.insertedId){
+                        swal({
+                            title: "Good job!",
+                            text: "You Successfully add a new Toy!",
+                            icon: "success",
+                            button: "Great!",
+                          });
+                    }
+                })
 
-                if(data.insertedId){
-                    alert('You Successfully add a new Toy!')
-                    swal({
-                        title: "Good job!",
-                        text: "You Successfully add a new Toy!",
-                        icon: "success",
-                        button: "Great!",
-                      });
-                }
+                
     }
 
     return (

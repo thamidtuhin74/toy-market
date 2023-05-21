@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useLoaderData } from 'react-router-dom';
+import { Link, useLoaderData } from 'react-router-dom';
 import Select from 'react-select';
 import swal from 'sweetalert';
 
@@ -13,6 +13,8 @@ const Edit = () => {
     
 
     const handleaEditAToy = event =>{
+
+        
         event.preventDefault();
 
         const price = event.target.price.value;
@@ -23,15 +25,41 @@ const Edit = () => {
         const updateToy = {price,quantity,details};
         
         console.log(updateToy);
-        fetch( `http://localhost:5000/all-toys/${toy._id}`,{
-            method: 'PUT',
-            headers: {
-                'content-type':'application/json'
-            },
-            body: JSON.stringify(updateToy)
-            })
-                .then(res=> res.json())
-                .then(data => console.log(data))
+
+        swal({
+            title: "Are you sure?",
+            text: "Once deleted, you will not be able to recover this imaginary file!",
+            icon: "warning",
+            buttons: true,
+            dangerMode: true,
+          })
+          .then((willDelete) => {
+            if (willDelete) {
+                fetch( `http://localhost:5000/all-toys/${toy._id}`,{
+                method: 'PUT',
+                headers: {
+                    'content-type':'application/json'
+                },
+                body: JSON.stringify(updateToy)
+                })
+                    .then(res=> res.json())
+                    .then(data => console.log(data))
+              swal(`You Updated the Toy ${toy.name}!`, {
+                icon: "success",
+              });
+            } else {
+              swal("Your imaginary file is safe!");
+            }
+          });
+        // fetch( `http://localhost:5000/all-toys/${toy._id}`,{
+        //     method: 'PUT',
+        //     headers: {
+        //         'content-type':'application/json'
+        //     },
+        //     body: JSON.stringify(updateToy)
+        //     })
+        //         .then(res=> res.json())
+        //         .then(data => console.log(data))
     }
 
     return (
