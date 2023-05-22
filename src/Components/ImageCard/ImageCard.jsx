@@ -7,7 +7,7 @@ const ImageCard = () => {
     return (
         <div className='container mx-auto grid lg:grid-cols-3 md:grid-cols-2 gap-4'>
             <Link to="/all-toys">
-                <div className="card w-96 bg-base-100 shadow-xl">
+                <div className="card bg-base-100 shadow-xl">
                     <div className="card-body">
                         <h2 className="card-title"></h2>
                         
@@ -16,7 +16,7 @@ const ImageCard = () => {
                 </div>
             </Link>
              <Link to="/all-toys"> 
-                <div className="card w-96 bg-base-100 shadow-xl">
+                <div className="card bg-base-100 shadow-xl">
                     <div className="card-body">
                         <h2 className="card-title"></h2>
                         
@@ -26,7 +26,7 @@ const ImageCard = () => {
              </Link>
              <Link to="/all-toys">
                 
-                <div className="card w-96 bg-base-100 shadow-xl">
+                <div className="card bg-base-100 shadow-xl">
                     <div className="card-body">
                         <h2 className="card-title"></h2>
                         

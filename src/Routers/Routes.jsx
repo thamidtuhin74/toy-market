@@ -26,7 +26,7 @@ import Edit from "../Components/Edit/Edit";
         {
             path: "/",
             element: <Home></Home>,
-            loader: ()=> fetch('https://top-market-server.vercel.app/all-toys')
+            loader: ()=> fetch('https://top-market-server.vercel.app/all-toys/')
         },
         {
             path: "/login",
@@ -43,7 +43,7 @@ import Edit from "../Components/Edit/Edit";
         {
           path: "/all-toys",
           element: <AllToys></AllToys>,
-          loader: ()=>fetch('https://top-market-server.vercel.app/all-toys')
+          loader: ()=>fetch('https://top-market-server.vercel.app/all-toys/')
       },
       {
           path: "/add-a-toy",
@@ -53,7 +53,7 @@ import Edit from "../Components/Edit/Edit";
       {
           path: "/my-toys",
           element: <PrivateRoute><MyToys></MyToys></PrivateRoute>,
-          loader: ()=>fetch('https://top-market-server.vercel.app/all-toys')
+          loader: ()=>fetch('https://top-market-server.vercel.app/all-toys/')
       },
       {
           path: "/all-toys/:id",

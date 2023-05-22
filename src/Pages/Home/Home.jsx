@@ -18,20 +18,7 @@ const Home = () => {
             
             <h2 className='font-bold py-5 text-5xl text-center text-blue-700 '>Product Gelery</h2>
             <ImageCard ></ImageCard>
-            <div className='grid lg:grid-cols-3 md:grid-cols-2 gap-4'>
-                {/* {
-                    toys.map(toy=><ToyCard
-                        key = {toy._id}
-                        toy = {toy}
-                    ></ToyCard>)
-                    } */}
-                {
-                    allToys.map(toy=><ToyCard
-                        key = {toy._id}
-                        toy = {toy}
-                    ></ToyCard>)
-                }
-            </div>
+            
             <CategoryTab></CategoryTab>
         </div>
     );

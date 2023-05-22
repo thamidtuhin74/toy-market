@@ -6,11 +6,13 @@ import { Link } from 'react-router-dom';
 import { AuthContext } from '../../Provider/authProvider';
 const Catagory = () => {
 
+
   const { user } = useContext(AuthContext);
   const [alltoys, setAlltoys] = useState([])
   const [MarvelToys, setMarvelToys] = useState([])
-  const [CilvilToys, setCarToys] = useState([])
-  const [TruckToys, setTruckToys] = useState([])
+  const [DcToys, setDcToys] = useState([])
+  const [DarkHorseToys, setDarkHorseToys] = useState([])
+  
 
   useEffect(() => {
     fetch(`https://top-market-server.vercel.app/all-toys`)
@@ -28,36 +30,36 @@ const Catagory = () => {
   }
 
 
-  const handleCilvilToys = () => {
+  const handleDcToys = () => {
     const carCatagory = alltoys.filter((item) => item.category == "DC");
-    setCarToys(carCatagory)
+    setDcToys(carCatagory)
   }
-  const handleTruckToys = () => {
+  const handleDarkHorseToys = () => {
     const TruckCatagory = alltoys.filter((item) => item.category == "Dark Horse");
-    setTruckToys(TruckCatagory)
+    setDarkHorseToys(TruckCatagory)
 
   }
 
 
   return (
-    <div>
+    <div className='container mx-auto'>
 
-      <div><h2 className='font-bold text-2xl font-mono  text-center mt-2 mb-2'>Watch the toys added by the users. </h2></div>
+      <div><h2 className='font-bold text-2xl font-mono  text-center mt-2 mb-2'>Toys by Category </h2></div>
 
-      <Tabs>
-        <TabList className="flex items-center gap-20 justify-center cursor-pointer border-2 mb-3">
+      <Tabs defaultIndex={1}>
+        <TabList className="flex items-center md:gap-20 justify-center cursor-pointer border-2 mb-3">
           <Tab className="p-4 text-xl border-r-2 border-l-2 " onClick={handleMarvelToys} >Marverl</Tab>
-          <Tab className="p-4 text-xl border-r-2" onClick={handleCilvilToys}>DC</Tab>
-          <Tab className="p-4 text-xl border-r-2" onClick={handleTruckToys}>Truck </Tab>
+          <Tab className="p-4 text-xl border-r-2" onClick={handleDcToys}>DC</Tab>
+          <Tab className="p-4 text-xl border-r-2" onClick={handleDarkHorseToys}>Dark Horse</Tab>
 
         </TabList>
 
         <TabPanel>
          
-          <div className='lg:grid grid-cols-3 gap-5 ml-10 mb-5'>
+          <div className='lg:grid grid-cols-3 gap-5 mb-5'>
             {
               MarvelToys.map((kit) =>
-                <div className="card w-96 bg-base-100 shadow-xl mb-5 ml-5">
+                <div className="card bg-base-100 shadow-xl mb-5">
                   <figure><img src={kit.img} /></figure>
                   <div className="card-body">
                     <h2 className="card-title">Toy Name : {kit.name}</h2>
@@ -82,10 +84,10 @@ const Catagory = () => {
 
         </TabPanel>
         <TabPanel>
-          <div className='lg:grid grid-cols-3 ml-10'>
+          <div className='lg:grid grid-cols-3 gap-5 mb-5'>
             {
-              CilvilToys.map((kit) =>
-                <div className="card w-96 bg-base-100 shadow-xl mb-5">
+              DcToys.map((kit) =>
+                <div className="card bg-base-100 shadow-xl mb-5">
                   <figure><img src={kit.img} /></figure>
                   <div className="card-body">
                     <h2 className="card-title">Toy Name : {kit.name}</h2>
@@ -111,10 +113,10 @@ const Catagory = () => {
         </TabPanel>
         <TabPanel>
           
-          <div className='lg:grid grid-cols-3 ml-10'>
+          <div className='lg:grid grid-cols-3 gap-5 mb-5'>
             {
-              TruckToys.map((kit) =>
-                <div className="card w-96 bg-base-100 shadow-xl mb-5">
+              DarkHorseToys.map((kit) =>
+                <div className="card bg-base-100 shadow-xl mb-5">
                   <figure><img src={kit.img} /></figure>
                   <div className="card-body">
                     <h2 className="card-title">Toy Name : {kit.name}</h2>
