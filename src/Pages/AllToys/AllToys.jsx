@@ -11,7 +11,7 @@ const AllToys = () => {
     const [toys, setToys] = useState(allToys);
     // const remaining = [];
 
-    // console.log();
+    console.log('toys: ',toys);
     const searchHandler = (event) =>{
         event.preventDefault();
         const itemName = toString(event.target.itemName.value);

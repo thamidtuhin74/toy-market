@@ -32,7 +32,8 @@ const AddAToy = () => {
         const seller = {sellerName,email}
         const newToy = {name,price,rating,category,quantity,details,img,seller}
         console.log(newToy);
-        fetch('https://top-market-server.vercel.app/add-a-toy',{
+        // fetch('https://top-market-server.vercel.app/add-a-toy',{
+        fetch('https://top-market-server-thamidtuhin74.vercel.app/add-a-toy',{
             method: 'POST',
             headers: {
                 'content-type':'application/json'

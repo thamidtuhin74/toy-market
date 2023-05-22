@@ -15,7 +15,8 @@ const Catagory = () => {
   
 
   useEffect(() => {
-    fetch(`https://top-market-server.vercel.app/all-toys`)
+    // fetch(`https://top-market-server.vercel.app/all-toys/`)
+    fetch(`https://top-market-server-thamidtuhin74.vercel.app/all-toys/`)
       .then((res) => res.json())
       .then((result) => {
         setAlltoys(result);

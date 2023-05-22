@@ -6,6 +6,12 @@
 
 ## single Toys API link : https://top-market-server.vercel.app/all-toys/:id
 
+### Suddenly vercel production link was not responding, that why I use another link : https://top-market-server-thamidtuhin74.vercel.app for the same vercel server.. And Replace all the link 'https://top-market-server.vercel.app/' to 'https://top-market-server-thamidtuhin74.vercel.app'
+
+## Updated All Toys API link : https://top-market-server-thamidtuhin74.vercel.app/all-toys/
+
+## Updated single Toys API link : https://top-market-server-thamidtuhin74.vercel.app/all-toys/:id
+
 ## Github Client Link : https://github.com/programming-hero-web-course-4/b7a11-toy-marketplace-client-side-thamidtuhin74
 
 ## Github Server Link : https://github.com/programming-hero-web-course-4/b7a11-toy-marketplace-server-side-thamidtuhin74

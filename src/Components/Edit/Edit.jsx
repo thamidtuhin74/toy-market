@@ -35,7 +35,8 @@ const Edit = () => {
           })
           .then((willDelete) => {
             if (willDelete) {
-                fetch( `https://top-market-server.vercel.app/all-toys/${toy._id}`,{
+                // fetch( `https://top-market-server.vercel.app/all-toys/${toy._id}`,{
+                fetch( `https://top-market-server-thamidtuhin74.vercel.app/all-toys/${toy._id}`,{
                 method: 'PUT',
                 headers: {
                     'content-type':'application/json'
