@@ -12,9 +12,9 @@
 
 ## Updated single Toys API link : https://top-market-server-thamidtuhin74.vercel.app/all-toys/:id
 
-## Github Client Link : https://github.com/programming-hero-web-course-4/b7a11-toy-marketplace-client-side-thamidtuhin74
+## Github Client Link : https://github.com/thamidtuhin74/toy-market
 
-## Github Server Link : https://github.com/programming-hero-web-course-4/b7a11-toy-marketplace-server-side-thamidtuhin74
+## Github Server Link : https://github.com/thamidtuhin74/toy-market-server
 
 
 
